@@ -1,0 +1,55 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    color: #e91e63;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  #letter-form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+  
+  #letter-form button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #letter-form button:hover {
+    background-color: #c2185b;
+  }
+  
+  #letter-display p {
+    font-style: italic;
+    color: #555;
+  }
+  
